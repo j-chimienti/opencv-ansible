@@ -1,0 +1,4 @@
+- name: Install OpenCV
+  hosts: opencv
+  remote_user: pi
+  include_task: opencv.yml
